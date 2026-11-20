@@ -1,0 +1,720 @@
+﻿seq p=1 vec n=200
+    warmup   #0:     0.0704 s
+    warmup   #1:     0.0703 s
+    warmup   #2:     0.0693 s
+    measured #0:     0.0701 s
+    measured #1:     0.0691 s
+    measured #2:     0.0690 s
+    measured #3:     0.0703 s
+    measured #4:     0.0693 s
+par p=1 vec n=200
+    warmup   #0:     0.0753 s
+    warmup   #1:     0.0723 s
+    warmup   #2:     0.0729 s
+    measured #0:     0.0740 s
+    measured #1:     0.0751 s
+    measured #2:     0.0742 s
+    measured #3:     0.0747 s
+    measured #4:     0.0738 s
+par p=2 vec n=200
+    warmup   #0:     0.0364 s
+    warmup   #1:     0.0364 s
+    warmup   #2:     0.0359 s
+    measured #0:     0.0360 s
+    measured #1:     0.0360 s
+    measured #2:     0.0361 s
+    measured #3:     0.0361 s
+    measured #4:     0.0361 s
+par p=4 vec n=200
+    warmup   #0:     0.0214 s
+    warmup   #1:     0.0212 s
+    warmup   #2:     0.0212 s
+    measured #0:     0.0205 s
+    measured #1:     0.0205 s
+    measured #2:     0.0214 s
+    measured #3:     0.0208 s
+    measured #4:     0.0207 s
+par p=8 vec n=200
+    warmup   #0:     0.0138 s
+    warmup   #1:     0.0135 s
+    warmup   #2:     0.0140 s
+    measured #0:     0.0135 s
+    measured #1:     0.0139 s
+    measured #2:     0.0139 s
+    measured #3:     0.0139 s
+    measured #4:     0.0139 s
+par p=12 vec n=200
+    warmup   #0:     0.0142 s
+    warmup   #1:     0.0140 s
+    warmup   #2:     0.0141 s
+    measured #0:     0.0133 s
+    measured #1:     0.0141 s
+    measured #2:     0.0140 s
+    measured #3:     0.0143 s
+    measured #4:     0.0136 s
+par p=16 vec n=200
+    warmup   #0:     0.0146 s
+    warmup   #1:     0.0139 s
+    warmup   #2:     0.0137 s
+    measured #0:     0.0138 s
+    measured #1:     0.0139 s
+    measured #2:     0.0136 s
+    measured #3:     0.0155 s
+    measured #4:     0.0144 s
+par p=24 vec n=200
+    warmup   #0:     0.0134 s
+    warmup   #1:     0.0137 s
+    warmup   #2:     0.0145 s
+    measured #0:     0.0137 s
+    measured #1:     0.0138 s
+    measured #2:     0.0147 s
+    measured #3:     0.0136 s
+    measured #4:     0.0136 s
+par p=32 vec n=200
+    warmup   #0:     0.0143 s
+    warmup   #1:     0.0139 s
+    warmup   #2:     0.0140 s
+    measured #0:     0.0130 s
+    measured #1:     0.0122 s
+    measured #2:     0.0126 s
+    measured #3:     0.0128 s
+    measured #4:     0.0121 s
+par p=64 vec n=200
+    warmup   #0:     0.0164 s
+    warmup   #1:     0.0146 s
+    warmup   #2:     0.0155 s
+    measured #0:     0.0142 s
+    measured #1:     0.0165 s
+    measured #2:     0.0159 s
+    measured #3:     0.0142 s
+    measured #4:     0.0155 s
+seq p=1 vec n=500
+    warmup   #0:     0.1050 s
+    warmup   #1:     0.1049 s
+    warmup   #2:     0.1045 s
+    measured #0:     0.1045 s
+    measured #1:     0.1045 s
+    measured #2:     0.1047 s
+    measured #3:     0.1045 s
+    measured #4:     0.1046 s
+par p=1 vec n=500
+    warmup   #0:     0.1044 s
+    warmup   #1:     0.1060 s
+    warmup   #2:     0.1058 s
+    measured #0:     0.1061 s
+    measured #1:     0.1047 s
+    measured #2:     0.1065 s
+    measured #3:     0.1044 s
+    measured #4:     0.1043 s
+par p=2 vec n=500
+    warmup   #0:     0.0585 s
+    warmup   #1:     0.0575 s
+    warmup   #2:     0.0577 s
+    measured #0:     0.0581 s
+    measured #1:     0.0577 s
+    measured #2:     0.0583 s
+    measured #3:     0.0571 s
+    measured #4:     0.0580 s
+par p=4 vec n=500
+    warmup   #0:     0.0277 s
+    warmup   #1:     0.0279 s
+    warmup   #2:     0.0273 s
+    measured #0:     0.0272 s
+    measured #1:     0.0276 s
+    measured #2:     0.0285 s
+    measured #3:     0.0273 s
+    measured #4:     0.0280 s
+par p=8 vec n=500
+    warmup   #0:     0.0150 s
+    warmup   #1:     0.0153 s
+    warmup   #2:     0.0155 s
+    measured #0:     0.0148 s
+    measured #1:     0.0143 s
+    measured #2:     0.0145 s
+    measured #3:     0.0152 s
+    measured #4:     0.0150 s
+par p=12 vec n=500
+    warmup   #0:     0.0118 s
+    warmup   #1:     0.0104 s
+    warmup   #2:     0.0111 s
+    measured #0:     0.0114 s
+    measured #1:     0.0119 s
+    measured #2:     0.0105 s
+    measured #3:     0.0106 s
+    measured #4:     0.0103 s
+par p=16 vec n=500
+    warmup   #0:     0.0151 s
+    warmup   #1:     0.0117 s
+    warmup   #2:     0.0113 s
+    measured #0:     0.0095 s
+    measured #1:     0.0103 s
+    measured #2:     0.0138 s
+    measured #3:     0.0110 s
+    measured #4:     0.0104 s
+par p=24 vec n=500
+    warmup   #0:     0.0118 s
+    warmup   #1:     0.0122 s
+    warmup   #2:     0.0115 s
+    measured #0:     0.0120 s
+    measured #1:     0.0118 s
+    measured #2:     0.0116 s
+    measured #3:     0.0116 s
+    measured #4:     0.0113 s
+par p=32 vec n=500
+    warmup   #0:     0.0124 s
+    warmup   #1:     0.0124 s
+    warmup   #2:     0.0123 s
+    measured #0:     0.0121 s
+    measured #1:     0.0104 s
+    measured #2:     0.0102 s
+    measured #3:     0.0096 s
+    measured #4:     0.0102 s
+par p=64 vec n=500
+    warmup   #0:     0.0117 s
+    warmup   #1:     0.0102 s
+    warmup   #2:     0.0103 s
+    measured #0:     0.0103 s
+    measured #1:     0.0100 s
+    measured #2:     0.0102 s
+    measured #3:     0.0105 s
+    measured #4:     0.0100 s
+seq p=1 vec n=1000
+    warmup   #0:     0.2108 s
+    warmup   #1:     0.2120 s
+    warmup   #2:     0.2129 s
+    measured #0:     0.2122 s
+    measured #1:     0.2124 s
+    measured #2:     0.2123 s
+    measured #3:     0.2122 s
+    measured #4:     0.2124 s
+par p=1 vec n=1000
+    warmup   #0:     0.2172 s
+    warmup   #1:     0.2017 s
+    warmup   #2:     0.2012 s
+    measured #0:     0.2010 s
+    measured #1:     0.2009 s
+    measured #2:     0.2025 s
+    measured #3:     0.2186 s
+    measured #4:     0.2067 s
+par p=2 vec n=1000
+    warmup   #0:     0.1093 s
+    warmup   #1:     0.1101 s
+    warmup   #2:     0.1106 s
+    measured #0:     0.1092 s
+    measured #1:     0.1092 s
+    measured #2:     0.1089 s
+    measured #3:     0.1102 s
+    measured #4:     0.1103 s
+par p=4 vec n=1000
+    warmup   #0:     0.0527 s
+    warmup   #1:     0.0575 s
+    warmup   #2:     0.0542 s
+    measured #0:     0.0535 s
+    measured #1:     0.0547 s
+    measured #2:     0.0541 s
+    measured #3:     0.0523 s
+    measured #4:     0.0539 s
+par p=8 vec n=1000
+    warmup   #0:     0.0276 s
+    warmup   #1:     0.0276 s
+    warmup   #2:     0.0272 s
+    measured #0:     0.0269 s
+    measured #1:     0.0277 s
+    measured #2:     0.0270 s
+    measured #3:     0.0273 s
+    measured #4:     0.0263 s
+par p=12 vec n=1000
+    warmup   #0:     0.0187 s
+    warmup   #1:     0.0185 s
+    warmup   #2:     0.0193 s
+    measured #0:     0.0193 s
+    measured #1:     0.0178 s
+    measured #2:     0.0184 s
+    measured #3:     0.0185 s
+    measured #4:     0.0205 s
+par p=16 vec n=1000
+    warmup   #0:     0.0220 s
+    warmup   #1:     0.0232 s
+    warmup   #2:     0.0220 s
+    measured #0:     0.0224 s
+    measured #1:     0.0243 s
+    measured #2:     0.0171 s
+    measured #3:     0.0239 s
+    measured #4:     0.0165 s
+par p=24 vec n=1000
+    warmup   #0:     0.0193 s
+    warmup   #1:     0.0184 s
+    warmup   #2:     0.0173 s
+    measured #0:     0.0179 s
+    measured #1:     0.0179 s
+    measured #2:     0.0179 s
+    measured #3:     0.0163 s
+    measured #4:     0.0194 s
+par p=32 vec n=1000
+    warmup   #0:     0.0154 s
+    warmup   #1:     0.0167 s
+    warmup   #2:     0.0179 s
+    measured #0:     0.0145 s
+    measured #1:     0.0178 s
+    measured #2:     0.0150 s
+    measured #3:     0.0166 s
+    measured #4:     0.0177 s
+par p=64 vec n=1000
+    warmup   #0:     0.0178 s
+    warmup   #1:     0.0163 s
+    warmup   #2:     0.0168 s
+    measured #0:     0.0158 s
+    measured #1:     0.0152 s
+    measured #2:     0.0155 s
+    measured #3:     0.0167 s
+    measured #4:     0.0173 s
+seq p=1 novec n=1000
+    warmup   #0:     0.5050 s
+    warmup   #1:     0.5074 s
+    warmup   #2:     0.5083 s
+    measured #0:     0.5057 s
+    measured #1:     0.5031 s
+    measured #2:     0.5060 s
+    measured #3:     0.5068 s
+    measured #4:     0.5055 s
+par p=1 novec n=1000
+    warmup   #0:     0.5180 s
+    warmup   #1:     0.5187 s
+    warmup   #2:     0.5306 s
+    measured #0:     0.5184 s
+    measured #1:     0.5110 s
+    measured #2:     0.5118 s
+    measured #3:     0.5100 s
+    measured #4:     0.5141 s
+par p=2 novec n=1000
+    warmup   #0:     0.2752 s
+    warmup   #1:     0.2760 s
+    warmup   #2:     0.2741 s
+    measured #0:     0.2745 s
+    measured #1:     0.2691 s
+    measured #2:     0.2754 s
+    measured #3:     0.2744 s
+    measured #4:     0.2747 s
+par p=4 novec n=1000
+    warmup   #0:     0.1326 s
+    warmup   #1:     0.1315 s
+    warmup   #2:     0.1310 s
+    measured #0:     0.1296 s
+    measured #1:     0.1320 s
+    measured #2:     0.1335 s
+    measured #3:     0.1298 s
+    measured #4:     0.1291 s
+par p=8 novec n=1000
+    warmup   #0:     0.0669 s
+    warmup   #1:     0.0673 s
+    warmup   #2:     0.0660 s
+    measured #0:     0.0657 s
+    measured #1:     0.0655 s
+    measured #2:     0.0658 s
+    measured #3:     0.0648 s
+    measured #4:     0.0676 s
+par p=12 novec n=1000
+    warmup   #0:     0.0453 s
+    warmup   #1:     0.0475 s
+    warmup   #2:     0.0482 s
+    measured #0:     0.0444 s
+    measured #1:     0.0447 s
+    measured #2:     0.0459 s
+    measured #3:     0.0455 s
+    measured #4:     0.0466 s
+par p=16 novec n=1000
+    warmup   #0:     0.0367 s
+    warmup   #1:     0.0481 s
+    warmup   #2:     0.0457 s
+    measured #0:     0.0464 s
+    measured #1:     0.0444 s
+    measured #2:     0.0376 s
+    measured #3:     0.0377 s
+    measured #4:     0.0334 s
+par p=24 novec n=1000
+    warmup   #0:     0.0397 s
+    warmup   #1:     0.0388 s
+    warmup   #2:     0.0387 s
+    measured #0:     0.0395 s
+    measured #1:     0.0387 s
+    measured #2:     0.0397 s
+    measured #3:     0.0385 s
+    measured #4:     0.0399 s
+par p=32 novec n=1000
+    warmup   #0:     0.0407 s
+    warmup   #1:     0.0352 s
+    warmup   #2:     0.0438 s
+    measured #0:     0.0324 s
+    measured #1:     0.0348 s
+    measured #2:     0.0322 s
+    measured #3:     0.0342 s
+    measured #4:     0.0314 s
+par p=64 novec n=1000
+    warmup   #0:     0.0360 s
+    warmup   #1:     0.0355 s
+    warmup   #2:     0.0346 s
+    measured #0:     0.0342 s
+    measured #1:     0.0352 s
+    measured #2:     0.0359 s
+    measured #3:     0.0354 s
+    measured #4:     0.0394 s
+seq p=1 vec n=2000
+    warmup   #0:     1.6481 s
+    warmup   #1:     1.6474 s
+    warmup   #2:     1.7285 s
+    measured #0:     1.6525 s
+    measured #1:     1.6699 s
+    measured #2:     1.7278 s
+    measured #3:     1.7013 s
+    measured #4:     1.7333 s
+par p=1 vec n=2000
+    warmup   #0:     1.6821 s
+    warmup   #1:     1.7076 s
+    warmup   #2:     1.6398 s
+    measured #0:     1.6603 s
+    measured #1:     1.6341 s
+    measured #2:     1.6864 s
+    measured #3:     1.7009 s
+    measured #4:     1.6779 s
+par p=2 vec n=2000
+    warmup   #0:     0.8297 s
+    warmup   #1:     0.8361 s
+    warmup   #2:     0.8460 s
+    measured #0:     1.2688 s
+    measured #1:     0.9670 s
+    measured #2:     1.0957 s
+    measured #3:     0.9434 s
+    measured #4:     1.0263 s
+par p=4 vec n=2000
+    warmup   #0:     0.4201 s
+    warmup   #1:     0.4152 s
+    warmup   #2:     0.4193 s
+    measured #0:     0.4166 s
+    measured #1:     0.4143 s
+    measured #2:     0.4156 s
+    measured #3:     0.7724 s
+    measured #4:     0.6126 s
+par p=8 vec n=2000
+    warmup   #0:     0.2107 s
+    warmup   #1:     0.2067 s
+    warmup   #2:     0.2080 s
+    measured #0:     0.2071 s
+    measured #1:     0.2104 s
+    measured #2:     0.2094 s
+    measured #3:     0.2099 s
+    measured #4:     0.2090 s
+par p=12 vec n=2000
+    warmup   #0:     0.1416 s
+    warmup   #1:     0.1430 s
+    warmup   #2:     0.1437 s
+    measured #0:     0.1415 s
+    measured #1:     0.1415 s
+    measured #2:     0.1414 s
+    measured #3:     0.1411 s
+    measured #4:     0.1415 s
+par p=16 vec n=2000
+    warmup   #0:     0.1486 s
+    warmup   #1:     0.1177 s
+    warmup   #2:     0.1150 s
+    measured #0:     0.1084 s
+    measured #1:     0.1290 s
+    measured #2:     0.1427 s
+    measured #3:     0.1580 s
+    measured #4:     0.1321 s
+par p=24 vec n=2000
+    warmup   #0:     0.1338 s
+    warmup   #1:     0.1373 s
+    warmup   #2:     0.1229 s
+    measured #0:     0.1295 s
+    measured #1:     0.1197 s
+    measured #2:     0.1318 s
+    measured #3:     0.1210 s
+    measured #4:     0.1209 s
+par p=32 vec n=2000
+    warmup   #0:     0.1282 s
+    warmup   #1:     0.1094 s
+    warmup   #2:     0.1102 s
+    measured #0:     0.1232 s
+    measured #1:     0.1189 s
+    measured #2:     0.1097 s
+    measured #3:     0.1049 s
+    measured #4:     0.1145 s
+par p=64 vec n=2000
+    warmup   #0:     0.1295 s
+    warmup   #1:     0.1248 s
+    warmup   #2:     0.1254 s
+    measured #0:     0.1236 s
+    measured #1:     0.1257 s
+    measured #2:     0.1238 s
+    measured #3:     0.1228 s
+    measured #4:     0.1229 s
+seq p=1 novec n=2000
+    warmup   #0:     4.0838 s
+    warmup   #1:     4.0590 s
+    warmup   #2:     4.1081 s
+    measured #0:     4.0714 s
+    measured #1:     4.1648 s
+    measured #2:     4.0395 s
+    measured #3:     4.0812 s
+    measured #4:     4.0459 s
+par p=1 novec n=2000
+    warmup   #0:     4.0624 s
+    warmup   #1:     4.0592 s
+    warmup   #2:     4.0778 s
+    measured #0:     4.1479 s
+    measured #1:     4.1428 s
+    measured #2:     4.1589 s
+    measured #3:     4.1180 s
+    measured #4:     4.1286 s
+par p=2 novec n=2000
+    warmup   #0:     2.0561 s
+    warmup   #1:     2.1643 s
+    warmup   #2:     2.7250 s
+    measured #0:     2.5050 s
+    measured #1:     3.0024 s
+    measured #2:     2.3690 s
+    measured #3:     2.1133 s
+    measured #4:     2.5054 s
+par p=4 novec n=2000
+    warmup   #0:     1.0137 s
+    warmup   #1:     1.0102 s
+    warmup   #2:     1.4222 s
+    measured #0:     1.4658 s
+    measured #1:     1.5411 s
+    measured #2:     1.7409 s
+    measured #3:     1.7487 s
+    measured #4:     1.5451 s
+par p=8 novec n=2000
+    warmup   #0:     0.5087 s
+    warmup   #1:     0.5072 s
+    warmup   #2:     0.5077 s
+    measured #0:     0.5074 s
+    measured #1:     0.6264 s
+    measured #2:     0.9258 s
+    measured #3:     0.8599 s
+    measured #4:     0.9440 s
+par p=12 novec n=2000
+    warmup   #0:     0.3418 s
+    warmup   #1:     0.3395 s
+    warmup   #2:     0.3408 s
+    measured #0:     0.3412 s
+    measured #1:     0.3407 s
+    measured #2:     0.3416 s
+    measured #3:     0.3401 s
+    measured #4:     0.6071 s
+par p=16 novec n=2000
+    warmup   #0:     0.2736 s
+    warmup   #1:     0.2869 s
+    warmup   #2:     0.2670 s
+    measured #0:     0.3085 s
+    measured #1:     0.2724 s
+    measured #2:     0.2735 s
+    measured #3:     0.2776 s
+    measured #4:     0.2976 s
+par p=24 novec n=2000
+    warmup   #0:     0.2979 s
+    warmup   #1:     0.2782 s
+    warmup   #2:     0.2625 s
+    measured #0:     0.2761 s
+    measured #1:     0.2905 s
+    measured #2:     0.2750 s
+    measured #3:     0.2752 s
+    measured #4:     0.2871 s
+par p=32 novec n=2000
+    warmup   #0:     0.2541 s
+    warmup   #1:     0.2491 s
+    warmup   #2:     0.2476 s
+    measured #0:     0.2478 s
+    measured #1:     0.2475 s
+    measured #2:     0.2597 s
+    measured #3:     0.2504 s
+    measured #4:     0.2498 s
+par p=64 novec n=2000
+    warmup   #0:     0.2722 s
+    warmup   #1:     0.2764 s
+    warmup   #2:     0.2762 s
+    measured #0:     0.2768 s
+    measured #1:     0.2771 s
+    measured #2:     0.2723 s
+    measured #3:     0.2750 s
+    measured #4:     0.2728 s
+seq p=1 vec n=4000
+    warmup   #0:    12.7713 s
+    warmup   #1:    12.7795 s
+    warmup   #2:    12.7713 s
+    measured #0:    12.7563 s
+    measured #1:    12.7566 s
+    measured #2:    12.7474 s
+    measured #3:    12.9137 s
+    measured #4:    12.8704 s
+par p=1 vec n=4000
+    warmup   #0:    13.0115 s
+    warmup   #1:    13.0155 s
+    warmup   #2:    13.0039 s
+    measured #0:    13.0159 s
+    measured #1:    13.0105 s
+    measured #2:    12.9990 s
+    measured #3:    13.0067 s
+    measured #4:    13.0014 s
+par p=2 vec n=4000
+    warmup   #0:     8.1442 s
+    warmup   #1:     6.6665 s
+    warmup   #2:     7.5520 s
+    measured #0:     7.0933 s
+    measured #1:     7.3940 s
+    measured #2:     7.0228 s
+    measured #3:     8.6196 s
+    measured #4:     7.2031 s
+par p=4 vec n=4000
+    warmup   #0:     3.5925 s
+    warmup   #1:     5.3273 s
+    warmup   #2:     5.1476 s
+    measured #0:     4.8326 s
+    measured #1:     4.8674 s
+    measured #2:     5.0009 s
+    measured #3:     5.0163 s
+    measured #4:     5.1402 s
+par p=8 vec n=4000
+    warmup   #0:     1.6126 s
+    warmup   #1:     2.3770 s
+    warmup   #2:     3.1527 s
+    measured #0:     2.9609 s
+    measured #1:     2.9359 s
+    measured #2:     2.8107 s
+    measured #3:     2.9418 s
+    measured #4:     3.1345 s
+par p=12 vec n=4000
+    warmup   #0:     1.3481 s
+    warmup   #1:     1.1061 s
+    warmup   #2:     2.2274 s
+    measured #0:     2.2083 s
+    measured #1:     2.2111 s
+    measured #2:     2.2960 s
+    measured #3:     2.1566 s
+    measured #4:     2.1638 s
+par p=16 vec n=4000
+    warmup   #0:     1.1526 s
+    warmup   #1:     0.8719 s
+    warmup   #2:     1.3816 s
+    measured #0:     1.6981 s
+    measured #1:     1.6623 s
+    measured #2:     1.6952 s
+    measured #3:     1.5476 s
+    measured #4:     1.7412 s
+par p=24 vec n=4000
+    warmup   #0:     0.9750 s
+    warmup   #1:     0.9566 s
+    warmup   #2:     1.1985 s
+    measured #0:     1.1688 s
+    measured #1:     1.1906 s
+    measured #2:     1.1647 s
+    measured #3:     1.1787 s
+    measured #4:     1.2042 s
+par p=32 vec n=4000
+    warmup   #0:     0.8718 s
+    warmup   #1:     0.8778 s
+    warmup   #2:     0.8976 s
+    measured #0:     0.8577 s
+    measured #1:     0.8842 s
+    measured #2:     0.8733 s
+    measured #3:     0.8799 s
+    measured #4:     0.9008 s
+par p=64 vec n=4000
+    warmup   #0:     0.9590 s
+    warmup   #1:     0.9282 s
+    warmup   #2:     0.9743 s
+    measured #0:     0.9281 s
+    measured #1:     0.9331 s
+    measured #2:     0.9593 s
+    measured #3:     0.9340 s
+    measured #4:     0.9486 s
+seq p=1 novec n=4000
+    warmup   #0:    32.2556 s
+    warmup   #1:    32.2357 s
+    warmup   #2:    32.2372 s
+    measured #0:    32.2400 s
+    measured #1:    32.2399 s
+    measured #2:    32.2399 s
+    measured #3:    32.2217 s
+    measured #4:    32.3053 s
+par p=1 novec n=4000
+    warmup   #0:    32.3927 s
+    warmup   #1:    32.3493 s
+    warmup   #2:    32.3416 s
+    measured #0:    32.3334 s
+    measured #1:    32.4483 s
+    measured #2:    32.3226 s
+    measured #3:    32.3950 s
+    measured #4:    32.8521 s
+par p=2 novec n=4000
+    warmup   #0:    18.2592 s
+    warmup   #1:    16.8415 s
+    warmup   #2:    18.9142 s
+    measured #0:    19.4723 s
+    measured #1:    18.8257 s
+    measured #2:    18.1070 s
+    measured #3:    19.2587 s
+    measured #4:    17.6561 s
+par p=4 novec n=4000
+    warmup   #0:     8.1632 s
+    warmup   #1:     8.1523 s
+    warmup   #2:     8.1913 s
+    measured #0:    11.9015 s
+    measured #1:    11.8940 s
+    measured #2:    11.6436 s
+    measured #3:    11.3189 s
+    measured #4:    12.7512 s
+par p=8 novec n=4000
+    warmup   #0:     5.1498 s
+    warmup   #1:     6.9105 s
+    warmup   #2:     6.9785 s
+    measured #0:     7.3732 s
+    measured #1:     6.8226 s
+    measured #2:     7.0640 s
+    measured #3:     6.9576 s
+    measured #4:     7.0857 s
+par p=12 novec n=4000
+    warmup   #0:     3.1409 s
+    warmup   #1:     4.9799 s
+    warmup   #2:     5.1389 s
+    measured #0:     4.6248 s
+    measured #1:     4.8016 s
+    measured #2:     4.9851 s
+    measured #3:     4.7906 s
+    measured #4:     4.8662 s
+par p=16 novec n=4000
+    warmup   #0:     2.4999 s
+    warmup   #1:     3.6684 s
+    warmup   #2:     3.7152 s
+    measured #0:     3.6738 s
+    measured #1:     3.7656 s
+    measured #2:     3.7269 s
+    measured #3:     3.7298 s
+    measured #4:     3.6967 s
+par p=24 novec n=4000
+    warmup   #0:     2.2447 s
+    warmup   #1:     2.5927 s
+    warmup   #2:     2.6323 s
+    measured #0:     2.5655 s
+    measured #1:     2.6382 s
+    measured #2:     2.6103 s
+    measured #3:     2.6271 s
+    measured #4:     2.5998 s
+par p=32 novec n=4000
+    warmup   #0:     2.0432 s
+    warmup   #1:     2.0444 s
+    warmup   #2:     2.0278 s
+    measured #0:     2.0569 s
+    measured #1:     2.0051 s
+    measured #2:     2.0879 s
+    measured #3:     2.0278 s
+    measured #4:     2.1041 s
+par p=64 novec n=4000
+    warmup   #0:     2.2343 s
+    warmup   #1:     2.1743 s
+    warmup   #2:     2.1832 s
+    measured #0:     2.0777 s
+    measured #1:     2.1556 s
+    measured #2:     2.1099 s
+    measured #3:     2.1643 s
+    measured #4:     2.0870 s

@@ -1,0 +1,720 @@
+﻿pinned seq p=1 vec n=200 cpus=0
+    warmup   #0:     0.0727 s
+    warmup   #1:     0.0692 s
+    warmup   #2:     0.0702 s
+    measured #0:     0.0702 s
+    measured #1:     0.0690 s
+    measured #2:     0.0688 s
+    measured #3:     0.0689 s
+    measured #4:     0.0690 s
+pinned par p=1 vec n=200 cpus=0
+    warmup   #0:     0.0720 s
+    warmup   #1:     0.0794 s
+    warmup   #2:     0.0722 s
+    measured #0:     0.0755 s
+    measured #1:     0.0711 s
+    measured #2:     0.0705 s
+    measured #3:     0.0706 s
+    measured #4:     0.0708 s
+pinned par p=2 vec n=200 cpus=0 2
+    warmup   #0:     0.0359 s
+    warmup   #1:     0.0372 s
+    warmup   #2:     0.0355 s
+    measured #0:     0.0378 s
+    measured #1:     0.0403 s
+    measured #2:     0.0353 s
+    measured #3:     0.0355 s
+    measured #4:     0.0362 s
+pinned par p=4 vec n=200 cpus=0 2 4 6
+    warmup   #0:     0.0204 s
+    warmup   #1:     0.0212 s
+    warmup   #2:     0.0227 s
+    measured #0:     0.0222 s
+    measured #1:     0.0227 s
+    measured #2:     0.0212 s
+    measured #3:     0.0202 s
+    measured #4:     0.0208 s
+pinned par p=8 vec n=200 cpus=0 2 4 6 8 10 12 14
+    warmup   #0:     0.0135 s
+    warmup   #1:     0.0132 s
+    warmup   #2:     0.0145 s
+    measured #0:     0.0139 s
+    measured #1:     0.0141 s
+    measured #2:     0.0152 s
+    measured #3:     0.0138 s
+    measured #4:     0.0135 s
+pinned par p=12 vec n=200 cpus=0 2 4 6 8 10 12 14 16 18 20 22
+    warmup   #0:     0.0142 s
+    warmup   #1:     0.0140 s
+    warmup   #2:     0.0136 s
+    measured #0:     0.0135 s
+    measured #1:     0.0135 s
+    measured #2:     0.0136 s
+    measured #3:     0.0139 s
+    measured #4:     0.0141 s
+pinned par p=16 vec n=200 cpus=0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30
+    warmup   #0:     0.0133 s
+    warmup   #1:     0.0134 s
+    warmup   #2:     0.0131 s
+    measured #0:     0.0131 s
+    measured #1:     0.0135 s
+    measured #2:     0.0132 s
+    measured #3:     0.0135 s
+    measured #4:     0.0131 s
+pinned par p=24 vec n=200 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 20 22 24 26 28 30
+    warmup   #0:     0.0136 s
+    warmup   #1:     0.0137 s
+    warmup   #2:     0.0135 s
+    measured #0:     0.0134 s
+    measured #1:     0.0135 s
+    measured #2:     0.0132 s
+    measured #3:     0.0130 s
+    measured #4:     0.0123 s
+pinned par p=32 vec n=200 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+    warmup   #0:     0.0135 s
+    warmup   #1:     0.0140 s
+    warmup   #2:     0.0130 s
+    measured #0:     0.0131 s
+    measured #1:     0.0125 s
+    measured #2:     0.0121 s
+    measured #3:     0.0122 s
+    measured #4:     0.0120 s
+pinned par p=64 vec n=200 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+    warmup   #0:     0.0162 s
+    warmup   #1:     0.0144 s
+    warmup   #2:     0.0139 s
+    measured #0:     0.0139 s
+    measured #1:     0.0151 s
+    measured #2:     0.0142 s
+    measured #3:     0.0138 s
+    measured #4:     0.0139 s
+pinned seq p=1 vec n=500 cpus=0
+    warmup   #0:     0.1056 s
+    warmup   #1:     0.1028 s
+    warmup   #2:     0.1032 s
+    measured #0:     0.1027 s
+    measured #1:     0.1030 s
+    measured #2:     0.1030 s
+    measured #3:     0.1032 s
+    measured #4:     0.1029 s
+pinned par p=1 vec n=500 cpus=0
+    warmup   #0:     0.1105 s
+    warmup   #1:     0.1102 s
+    warmup   #2:     0.1098 s
+    measured #0:     0.1139 s
+    measured #1:     0.1115 s
+    measured #2:     0.1110 s
+    measured #3:     0.1102 s
+    measured #4:     0.1104 s
+pinned par p=2 vec n=500 cpus=0 2
+    warmup   #0:     0.0575 s
+    warmup   #1:     0.0545 s
+    warmup   #2:     0.0565 s
+    measured #0:     0.0538 s
+    measured #1:     0.0536 s
+    measured #2:     0.0536 s
+    measured #3:     0.0534 s
+    measured #4:     0.0539 s
+pinned par p=4 vec n=500 cpus=0 2 4 6
+    warmup   #0:     0.0272 s
+    warmup   #1:     0.0279 s
+    warmup   #2:     0.0298 s
+    measured #0:     0.0300 s
+    measured #1:     0.0305 s
+    measured #2:     0.0277 s
+    measured #3:     0.0270 s
+    measured #4:     0.0267 s
+pinned par p=8 vec n=500 cpus=0 2 4 6 8 10 12 14
+    warmup   #0:     0.0147 s
+    warmup   #1:     0.0152 s
+    warmup   #2:     0.0179 s
+    measured #0:     0.0150 s
+    measured #1:     0.0151 s
+    measured #2:     0.0178 s
+    measured #3:     0.0191 s
+    measured #4:     0.0171 s
+pinned par p=12 vec n=500 cpus=0 2 4 6 8 10 12 14 16 18 20 22
+    warmup   #0:     0.0165 s
+    warmup   #1:     0.0119 s
+    warmup   #2:     0.0132 s
+    measured #0:     0.0101 s
+    measured #1:     0.0127 s
+    measured #2:     0.0128 s
+    measured #3:     0.0107 s
+    measured #4:     0.0111 s
+pinned par p=16 vec n=500 cpus=0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30
+    warmup   #0:     0.0109 s
+    warmup   #1:     0.0108 s
+    warmup   #2:     0.0102 s
+    measured #0:     0.0090 s
+    measured #1:     0.0091 s
+    measured #2:     0.0094 s
+    measured #3:     0.0099 s
+    measured #4:     0.0113 s
+pinned par p=24 vec n=500 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 20 22 24 26 28 30
+    warmup   #0:     0.0121 s
+    warmup   #1:     0.0124 s
+    warmup   #2:     0.0120 s
+    measured #0:     0.0118 s
+    measured #1:     0.0117 s
+    measured #2:     0.0116 s
+    measured #3:     0.0112 s
+    measured #4:     0.0118 s
+pinned par p=32 vec n=500 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+    warmup   #0:     0.0126 s
+    warmup   #1:     0.0124 s
+    warmup   #2:     0.0125 s
+    measured #0:     0.0122 s
+    measured #1:     0.0121 s
+    measured #2:     0.0123 s
+    measured #3:     0.0124 s
+    measured #4:     0.0120 s
+pinned par p=64 vec n=500 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+    warmup   #0:     0.0111 s
+    warmup   #1:     0.0108 s
+    warmup   #2:     0.0107 s
+    measured #0:     0.0106 s
+    measured #1:     0.0105 s
+    measured #2:     0.0106 s
+    measured #3:     0.0103 s
+    measured #4:     0.0106 s
+pinned seq p=1 vec n=1000 cpus=0
+    warmup   #0:     0.1820 s
+    warmup   #1:     0.1814 s
+    warmup   #2:     0.1814 s
+    measured #0:     0.1808 s
+    measured #1:     0.1813 s
+    measured #2:     0.1819 s
+    measured #3:     0.1843 s
+    measured #4:     0.1811 s
+pinned par p=1 vec n=1000 cpus=0
+    warmup   #0:     0.1829 s
+    warmup   #1:     0.1809 s
+    warmup   #2:     0.1806 s
+    measured #0:     0.1809 s
+    measured #1:     0.1844 s
+    measured #2:     0.1869 s
+    measured #3:     0.1822 s
+    measured #4:     0.1848 s
+pinned par p=2 vec n=1000 cpus=0 2
+    warmup   #0:     0.0927 s
+    warmup   #1:     0.0931 s
+    warmup   #2:     0.0947 s
+    measured #0:     0.0921 s
+    measured #1:     0.0915 s
+    measured #2:     0.0922 s
+    measured #3:     0.0916 s
+    measured #4:     0.0934 s
+pinned par p=4 vec n=1000 cpus=0 2 4 6
+    warmup   #0:     0.0490 s
+    warmup   #1:     0.0496 s
+    warmup   #2:     0.0508 s
+    measured #0:     0.0524 s
+    measured #1:     0.0494 s
+    measured #2:     0.0498 s
+    measured #3:     0.0497 s
+    measured #4:     0.0496 s
+pinned par p=8 vec n=1000 cpus=0 2 4 6 8 10 12 14
+    warmup   #0:     0.0265 s
+    warmup   #1:     0.0270 s
+    warmup   #2:     0.0297 s
+    measured #0:     0.0267 s
+    measured #1:     0.0272 s
+    measured #2:     0.0271 s
+    measured #3:     0.0291 s
+    measured #4:     0.0267 s
+pinned par p=12 vec n=1000 cpus=0 2 4 6 8 10 12 14 16 18 20 22
+    warmup   #0:     0.0171 s
+    warmup   #1:     0.0176 s
+    warmup   #2:     0.0192 s
+    measured #0:     0.0170 s
+    measured #1:     0.0184 s
+    measured #2:     0.0170 s
+    measured #3:     0.0169 s
+    measured #4:     0.0170 s
+pinned par p=16 vec n=1000 cpus=0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30
+    warmup   #0:     0.0147 s
+    warmup   #1:     0.0242 s
+    warmup   #2:     0.0160 s
+    measured #0:     0.0143 s
+    measured #1:     0.0141 s
+    measured #2:     0.0142 s
+    measured #3:     0.0177 s
+    measured #4:     0.0140 s
+pinned par p=24 vec n=1000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 20 22 24 26 28 30
+    warmup   #0:     0.0179 s
+    warmup   #1:     0.0185 s
+    warmup   #2:     0.0193 s
+    measured #0:     0.0178 s
+    measured #1:     0.0181 s
+    measured #2:     0.0182 s
+    measured #3:     0.0182 s
+    measured #4:     0.0185 s
+pinned par p=32 vec n=1000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+    warmup   #0:     0.0190 s
+    warmup   #1:     0.0177 s
+    warmup   #2:     0.0162 s
+    measured #0:     0.0151 s
+    measured #1:     0.0153 s
+    measured #2:     0.0146 s
+    measured #3:     0.0180 s
+    measured #4:     0.0176 s
+pinned par p=64 vec n=1000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+    warmup   #0:     0.0196 s
+    warmup   #1:     0.0162 s
+    warmup   #2:     0.0164 s
+    measured #0:     0.0159 s
+    measured #1:     0.0154 s
+    measured #2:     0.0162 s
+    measured #3:     0.0151 s
+    measured #4:     0.0167 s
+pinned seq p=1 novec n=1000 cpus=0
+    warmup   #0:     0.4889 s
+    warmup   #1:     0.4941 s
+    warmup   #2:     0.4987 s
+    measured #0:     0.4959 s
+    measured #1:     0.4926 s
+    measured #2:     0.4935 s
+    measured #3:     0.4933 s
+    measured #4:     0.4948 s
+pinned par p=1 novec n=1000 cpus=0
+    warmup   #0:     0.4830 s
+    warmup   #1:     0.4869 s
+    warmup   #2:     0.4847 s
+    measured #0:     0.4870 s
+    measured #1:     0.4836 s
+    measured #2:     0.4835 s
+    measured #3:     0.4867 s
+    measured #4:     0.4833 s
+pinned par p=2 novec n=1000 cpus=0 2
+    warmup   #0:     0.2457 s
+    warmup   #1:     0.2456 s
+    warmup   #2:     0.2513 s
+    measured #0:     0.2440 s
+    measured #1:     0.2606 s
+    measured #2:     0.2442 s
+    measured #3:     0.2444 s
+    measured #4:     0.2445 s
+pinned par p=4 novec n=1000 cpus=0 2 4 6
+    warmup   #0:     0.1258 s
+    warmup   #1:     0.1280 s
+    warmup   #2:     0.1257 s
+    measured #0:     0.1248 s
+    measured #1:     0.1277 s
+    measured #2:     0.1246 s
+    measured #3:     0.1274 s
+    measured #4:     0.1249 s
+pinned par p=8 novec n=1000 cpus=0 2 4 6 8 10 12 14
+    warmup   #0:     0.0633 s
+    warmup   #1:     0.0643 s
+    warmup   #2:     0.0648 s
+    measured #0:     0.0630 s
+    measured #1:     0.0636 s
+    measured #2:     0.0630 s
+    measured #3:     0.0680 s
+    measured #4:     0.0635 s
+pinned par p=12 novec n=1000 cpus=0 2 4 6 8 10 12 14 16 18 20 22
+    warmup   #0:     0.0465 s
+    warmup   #1:     0.0430 s
+    warmup   #2:     0.0438 s
+    measured #0:     0.0424 s
+    measured #1:     0.0424 s
+    measured #2:     0.0423 s
+    measured #3:     0.0420 s
+    measured #4:     0.0422 s
+pinned par p=16 novec n=1000 cpus=0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30
+    warmup   #0:     0.0384 s
+    warmup   #1:     0.0336 s
+    warmup   #2:     0.0348 s
+    measured #0:     0.0348 s
+    measured #1:     0.0364 s
+    measured #2:     0.0362 s
+    measured #3:     0.0347 s
+    measured #4:     0.0363 s
+pinned par p=24 novec n=1000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 20 22 24 26 28 30
+    warmup   #0:     0.0395 s
+    warmup   #1:     0.0406 s
+    warmup   #2:     0.0399 s
+    measured #0:     0.0402 s
+    measured #1:     0.0404 s
+    measured #2:     0.0373 s
+    measured #3:     0.0391 s
+    measured #4:     0.0393 s
+pinned par p=32 novec n=1000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+    warmup   #0:     0.0307 s
+    warmup   #1:     0.0324 s
+    warmup   #2:     0.0330 s
+    measured #0:     0.0416 s
+    measured #1:     0.0321 s
+    measured #2:     0.0345 s
+    measured #3:     0.0307 s
+    measured #4:     0.0311 s
+pinned par p=64 novec n=1000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+    warmup   #0:     0.0373 s
+    warmup   #1:     0.0341 s
+    warmup   #2:     0.0334 s
+    measured #0:     0.0334 s
+    measured #1:     0.0348 s
+    measured #2:     0.0345 s
+    measured #3:     0.0364 s
+    measured #4:     0.0332 s
+pinned seq p=1 vec n=2000 cpus=0
+    warmup   #0:     1.4999 s
+    warmup   #1:     1.4967 s
+    warmup   #2:     1.4987 s
+    measured #0:     1.4950 s
+    measured #1:     1.4948 s
+    measured #2:     1.4925 s
+    measured #3:     1.4961 s
+    measured #4:     1.4953 s
+pinned par p=1 vec n=2000 cpus=0
+    warmup   #0:     1.4741 s
+    warmup   #1:     1.4730 s
+    warmup   #2:     1.4728 s
+    measured #0:     1.4796 s
+    measured #1:     1.4717 s
+    measured #2:     1.4753 s
+    measured #3:     1.4704 s
+    measured #4:     1.4750 s
+pinned par p=2 vec n=2000 cpus=0 2
+    warmup   #0:     0.7827 s
+    warmup   #1:     0.7749 s
+    warmup   #2:     0.7658 s
+    measured #0:     0.7695 s
+    measured #1:     0.7696 s
+    measured #2:     0.7720 s
+    measured #3:     0.7653 s
+    measured #4:     0.7654 s
+pinned par p=4 vec n=2000 cpus=0 2 4 6
+    warmup   #0:     0.4049 s
+    warmup   #1:     0.4070 s
+    warmup   #2:     0.4047 s
+    measured #0:     0.4121 s
+    measured #1:     0.4058 s
+    measured #2:     0.4050 s
+    measured #3:     0.4050 s
+    measured #4:     0.4053 s
+pinned par p=8 vec n=2000 cpus=0 2 4 6 8 10 12 14
+    warmup   #0:     0.2098 s
+    warmup   #1:     0.2069 s
+    warmup   #2:     0.2087 s
+    measured #0:     0.2082 s
+    measured #1:     0.2075 s
+    measured #2:     0.2083 s
+    measured #3:     0.2061 s
+    measured #4:     0.2083 s
+pinned par p=12 vec n=2000 cpus=0 2 4 6 8 10 12 14 16 18 20 22
+    warmup   #0:     0.1387 s
+    warmup   #1:     0.1396 s
+    warmup   #2:     0.1389 s
+    measured #0:     0.1385 s
+    measured #1:     0.1385 s
+    measured #2:     0.1383 s
+    measured #3:     0.1415 s
+    measured #4:     0.1406 s
+pinned par p=16 vec n=2000 cpus=0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30
+    warmup   #0:     0.1372 s
+    warmup   #1:     0.1181 s
+    warmup   #2:     0.1143 s
+    measured #0:     0.1242 s
+    measured #1:     0.1294 s
+    measured #2:     0.1191 s
+    measured #3:     0.1096 s
+    measured #4:     0.1127 s
+pinned par p=24 vec n=2000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 20 22 24 26 28 30
+    warmup   #0:     0.1281 s
+    warmup   #1:     0.1174 s
+    warmup   #2:     0.1144 s
+    measured #0:     0.1176 s
+    measured #1:     0.1209 s
+    measured #2:     0.1155 s
+    measured #3:     0.1151 s
+    measured #4:     0.1225 s
+pinned par p=32 vec n=2000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+    warmup   #0:     0.1055 s
+    warmup   #1:     0.1139 s
+    warmup   #2:     0.1138 s
+    measured #0:     0.1091 s
+    measured #1:     0.1129 s
+    measured #2:     0.1109 s
+    measured #3:     0.1054 s
+    measured #4:     0.1181 s
+pinned par p=64 vec n=2000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+    warmup   #0:     0.1261 s
+    warmup   #1:     0.1308 s
+    warmup   #2:     0.1245 s
+    measured #0:     0.1254 s
+    measured #1:     0.1282 s
+    measured #2:     0.1208 s
+    measured #3:     0.1236 s
+    measured #4:     0.1208 s
+pinned seq p=1 novec n=2000 cpus=0
+    warmup   #0:     4.2400 s
+    warmup   #1:     4.2817 s
+    warmup   #2:     4.1596 s
+    measured #0:     4.3070 s
+    measured #1:     4.5967 s
+    measured #2:     4.0504 s
+    measured #3:     4.0316 s
+    measured #4:     4.0173 s
+pinned par p=1 novec n=2000 cpus=0
+    warmup   #0:     4.0937 s
+    warmup   #1:     4.2455 s
+    warmup   #2:     4.2372 s
+    measured #0:     4.1739 s
+    measured #1:     4.2115 s
+    measured #2:     4.1941 s
+    measured #3:     4.1447 s
+    measured #4:     4.1321 s
+pinned par p=2 novec n=2000 cpus=0 2
+    warmup   #0:     2.0227 s
+    warmup   #1:     2.0824 s
+    warmup   #2:     2.0175 s
+    measured #0:     2.0228 s
+    measured #1:     2.0280 s
+    measured #2:     2.0830 s
+    measured #3:     2.0449 s
+    measured #4:     2.0372 s
+pinned par p=4 novec n=2000 cpus=0 2 4 6
+    warmup   #0:     1.0291 s
+    warmup   #1:     1.0490 s
+    warmup   #2:     1.0416 s
+    measured #0:     1.0406 s
+    measured #1:     1.0631 s
+    measured #2:     1.0526 s
+    measured #3:     1.0524 s
+    measured #4:     1.0481 s
+pinned par p=8 novec n=2000 cpus=0 2 4 6 8 10 12 14
+    warmup   #0:     0.5199 s
+    warmup   #1:     0.5152 s
+    warmup   #2:     0.5181 s
+    measured #0:     0.5172 s
+    measured #1:     0.5215 s
+    measured #2:     0.5145 s
+    measured #3:     0.5275 s
+    measured #4:     0.5222 s
+pinned par p=12 novec n=2000 cpus=0 2 4 6 8 10 12 14 16 18 20 22
+    warmup   #0:     0.3802 s
+    warmup   #1:     0.3621 s
+    warmup   #2:     0.3408 s
+    measured #0:     0.3449 s
+    measured #1:     0.3518 s
+    measured #2:     0.3548 s
+    measured #3:     0.3482 s
+    measured #4:     0.3524 s
+pinned par p=16 novec n=2000 cpus=0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30
+    warmup   #0:     0.3055 s
+    warmup   #1:     0.2693 s
+    warmup   #2:     0.2744 s
+    measured #0:     0.2796 s
+    measured #1:     0.2696 s
+    measured #2:     0.2820 s
+    measured #3:     0.2629 s
+    measured #4:     0.2624 s
+pinned par p=24 novec n=2000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 20 22 24 26 28 30
+    warmup   #0:     0.2727 s
+    warmup   #1:     0.2619 s
+    warmup   #2:     0.2739 s
+    measured #0:     0.2757 s
+    measured #1:     0.2579 s
+    measured #2:     0.2659 s
+    measured #3:     0.2890 s
+    measured #4:     0.3104 s
+pinned par p=32 novec n=2000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+    warmup   #0:     0.2509 s
+    warmup   #1:     0.2598 s
+    warmup   #2:     0.2545 s
+    measured #0:     0.2531 s
+    measured #1:     0.2514 s
+    measured #2:     0.2577 s
+    measured #3:     0.2570 s
+    measured #4:     0.2576 s
+pinned par p=64 novec n=2000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+    warmup   #0:     0.2867 s
+    warmup   #1:     0.2936 s
+    warmup   #2:     0.2817 s
+    measured #0:     0.2829 s
+    measured #1:     0.2912 s
+    measured #2:     0.2829 s
+    measured #3:     0.2768 s
+    measured #4:     0.2790 s
+pinned seq p=1 vec n=4000 cpus=0
+    warmup   #0:    12.9957 s
+    warmup   #1:    12.9398 s
+    warmup   #2:    12.9442 s
+    measured #0:    13.1007 s
+    measured #1:    13.1099 s
+    measured #2:    13.2193 s
+    measured #3:    13.2986 s
+    measured #4:    13.3002 s
+pinned par p=1 vec n=4000 cpus=0
+    warmup   #0:    12.8856 s
+    warmup   #1:    12.9870 s
+    warmup   #2:    13.3497 s
+    measured #0:    13.3660 s
+    measured #1:    13.2987 s
+    measured #2:    13.2087 s
+    measured #3:    13.1690 s
+    measured #4:    13.0360 s
+pinned par p=2 vec n=4000 cpus=0 2
+    warmup   #0:     6.5728 s
+    warmup   #1:     6.5947 s
+    warmup   #2:     6.6860 s
+    measured #0:     6.6976 s
+    measured #1:     6.6009 s
+    measured #2:     6.6233 s
+    measured #3:     6.6095 s
+    measured #4:     6.6103 s
+pinned par p=4 vec n=4000 cpus=0 2 4 6
+    warmup   #0:     3.3198 s
+    warmup   #1:     3.2615 s
+    warmup   #2:     3.2706 s
+    measured #0:     3.3228 s
+    measured #1:     3.3122 s
+    measured #2:     3.3214 s
+    measured #3:     3.3118 s
+    measured #4:     3.3102 s
+pinned par p=8 vec n=4000 cpus=0 2 4 6 8 10 12 14
+    warmup   #0:     1.6717 s
+    warmup   #1:     1.6605 s
+    warmup   #2:     1.6529 s
+    measured #0:     1.6692 s
+    measured #1:     1.6320 s
+    measured #2:     1.6654 s
+    measured #3:     1.6391 s
+    measured #4:     1.7211 s
+pinned par p=12 vec n=4000 cpus=0 2 4 6 8 10 12 14 16 18 20 22
+    warmup   #0:     1.1971 s
+    warmup   #1:     1.1555 s
+    warmup   #2:     1.1471 s
+    measured #0:     1.1684 s
+    measured #1:     1.1739 s
+    measured #2:     1.1789 s
+    measured #3:     1.1797 s
+    measured #4:     1.3276 s
+pinned par p=16 vec n=4000 cpus=0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30
+    warmup   #0:     0.9690 s
+    warmup   #1:     0.9634 s
+    warmup   #2:     0.9648 s
+    measured #0:     0.9479 s
+    measured #1:     0.9549 s
+    measured #2:     0.9445 s
+    measured #3:     0.9181 s
+    measured #4:     1.0750 s
+pinned par p=24 vec n=4000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 20 22 24 26 28 30
+    warmup   #0:     0.9190 s
+    warmup   #1:     0.9231 s
+    warmup   #2:     1.1495 s
+    measured #0:     1.1563 s
+    measured #1:     1.1436 s
+    measured #2:     1.1087 s
+    measured #3:     1.1730 s
+    measured #4:     1.1491 s
+pinned par p=32 vec n=4000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+    warmup   #0:     0.9316 s
+    warmup   #1:     0.9362 s
+    warmup   #2:     0.9459 s
+    measured #0:     0.9539 s
+    measured #1:     0.9395 s
+    measured #2:     1.0006 s
+    measured #3:     1.0338 s
+    measured #4:     1.0188 s
+pinned par p=64 vec n=4000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+    warmup   #0:     0.9981 s
+    warmup   #1:     1.0017 s
+    warmup   #2:     1.0168 s
+    measured #0:     0.9936 s
+    measured #1:     1.0114 s
+    measured #2:     1.0126 s
+    measured #3:     0.9917 s
+    measured #4:     1.0210 s
+pinned seq p=1 novec n=4000 cpus=0
+    warmup   #0:    32.9767 s
+    warmup   #1:    32.0985 s
+    warmup   #2:    31.9934 s
+    measured #0:    32.4121 s
+    measured #1:    32.2533 s
+    measured #2:    32.4245 s
+    measured #3:    32.5058 s
+    measured #4:    31.9758 s
+pinned par p=1 novec n=4000 cpus=0
+    warmup   #0:    31.8524 s
+    warmup   #1:    32.1391 s
+    warmup   #2:    31.8230 s
+    measured #0:    32.2092 s
+    measured #1:    32.5736 s
+    measured #2:    32.5470 s
+    measured #3:    32.4045 s
+    measured #4:    32.0964 s
+pinned par p=2 novec n=4000 cpus=0 2
+    warmup   #0:    16.2434 s
+    warmup   #1:    16.1259 s
+    warmup   #2:    17.0412 s
+    measured #0:    16.7592 s
+    measured #1:    16.8223 s
+    measured #2:    17.0052 s
+    measured #3:    16.9770 s
+    measured #4:    17.1362 s
+pinned par p=4 novec n=4000 cpus=0 2 4 6
+    warmup   #0:     8.5663 s
+    warmup   #1:     8.6005 s
+    warmup   #2:     8.6211 s
+    measured #0:     8.6277 s
+    measured #1:     8.5502 s
+    measured #2:     8.6138 s
+    measured #3:     8.7200 s
+    measured #4:     8.6950 s
+pinned par p=8 novec n=4000 cpus=0 2 4 6 8 10 12 14
+    warmup   #0:     4.2969 s
+    warmup   #1:     4.6697 s
+    warmup   #2:     4.2263 s
+    measured #0:     4.2647 s
+    measured #1:     4.5032 s
+    measured #2:     4.2513 s
+    measured #3:     4.6061 s
+    measured #4:     4.2302 s
+pinned par p=12 novec n=4000 cpus=0 2 4 6 8 10 12 14 16 18 20 22
+    warmup   #0:     2.8433 s
+    warmup   #1:     2.8232 s
+    warmup   #2:     3.0288 s
+    measured #0:     3.0630 s
+    measured #1:     2.8636 s
+    measured #2:     2.9179 s
+    measured #3:     3.0142 s
+    measured #4:     2.8369 s
+pinned par p=16 novec n=4000 cpus=0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30
+    warmup   #0:     2.2252 s
+    warmup   #1:     2.3836 s
+    warmup   #2:     2.3603 s
+    measured #0:     2.3349 s
+    measured #1:     2.3647 s
+    measured #2:     2.3759 s
+    measured #3:     2.4375 s
+    measured #4:     2.2378 s
+pinned par p=24 novec n=4000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 20 22 24 26 28 30
+    warmup   #0:     2.3105 s
+    warmup   #1:     2.5653 s
+    warmup   #2:     2.5850 s
+    measured #0:     2.6346 s
+    measured #1:     2.5323 s
+    measured #2:     2.4699 s
+    measured #3:     2.6002 s
+    measured #4:     2.5597 s
+pinned par p=32 novec n=4000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+    warmup   #0:     2.3240 s
+    warmup   #1:     2.2946 s
+    warmup   #2:     2.1563 s
+    measured #0:     2.2524 s
+    measured #1:     2.3181 s
+    measured #2:     2.0957 s
+    measured #3:     2.1562 s
+    measured #4:     2.1997 s
+pinned par p=64 novec n=4000 cpus=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+    warmup   #0:     2.2574 s
+    warmup   #1:     2.4249 s
+    warmup   #2:     2.3157 s
+    measured #0:     2.2757 s
+    measured #1:     2.2983 s
+    measured #2:     2.2983 s
+    measured #3:     2.2918 s
+    measured #4:     2.3735 s

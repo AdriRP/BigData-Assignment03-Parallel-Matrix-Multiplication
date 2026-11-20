@@ -1,0 +1,18 @@
+{
+  "seed": 2026,
+  "value_range": [-1.0, 1.0],
+  "dtype": "float64",
+  "warmups": 3,
+  "repetitions": 5,
+  "time_budget_per_run_s": 60,
+  "memory_budget_bytes": 4000000000,
+  "jvm_flags": ["-Xmx4g"],
+  "jvm_flags_no_vectorisation": ["-XX:-UseSuperWord"],
+
+  "block_size": 256,
+  "sizes": [200, 500, 1000, 2000, 4000],
+  "batch": {"200": 50, "500": 5},
+  "threads": [1, 2, 4, 8, 12, 16, 24, 32, 64],
+  "vectorisation_sizes": [1000, 2000, 4000],
+  "placements": ["pinned", "default"]
+}

@@ -1,0 +1,323 @@
+check,configuration,detail,result
+Java self-test,vec,55/55 cases,PASS
+Java self-test,novec,55/55 cases,PASS
+seq vs NumPy within rounding tolerance,n=200,"max|err|=8.882e-15, max err/tol=4.264e-03",PASS
+seq vs NumPy within rounding tolerance,n=500,"max|err|=6.395e-14, max err/tol=4.739e-03",PASS
+seq vs NumPy within rounding tolerance,n=1000,"max|err|=1.350e-13, max err/tol=2.427e-03",PASS
+seq vs NumPy within rounding tolerance,n=2000,"max|err|=2.984e-13, max err/tol=1.339e-03",PASS
+seq vs NumPy within rounding tolerance,n=4000,"max|err|=6.679e-13, max err/tol=7.486e-04",PASS
+bit-identical to the sequential baseline,default seq p=1 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=1 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=2 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=4 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=8 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=12 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=16 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=24 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=32 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=64 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default seq p=1 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=1 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=2 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=4 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=8 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=12 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=16 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=24 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=32 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=64 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default seq p=1 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=1 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=2 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=4 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=8 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=12 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=16 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=24 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=32 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=64 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default seq p=1 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=1 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=2 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=4 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=8 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=12 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=16 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=24 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=32 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=64 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default seq p=1 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=1 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=2 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=4 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=8 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=12 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=16 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=24 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=32 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=64 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default seq p=1 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=1 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=2 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=4 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=8 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=12 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=16 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=24 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=32 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=64 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default seq p=1 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=1 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=2 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=4 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=8 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=12 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=16 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=24 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=32 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=64 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default seq p=1 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=1 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=2 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=4 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=8 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=12 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=16 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=24 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=32 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,default par p=64 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=1 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=2 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=4 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=8 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=12 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=16 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=24 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=32 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=64 vec n=200,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=1 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=2 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=4 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=8 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=12 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=16 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=24 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=32 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=64 vec n=500,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=1 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=2 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=4 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=8 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=12 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=16 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=24 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=32 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=64 vec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned seq p=1 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=1 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=2 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=4 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=8 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=12 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=16 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=24 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=32 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=64 novec n=1000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=1 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=2 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=4 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=8 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=12 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=16 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=24 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=32 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=64 vec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned seq p=1 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=1 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=2 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=4 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=8 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=12 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=16 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=24 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=32 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=64 novec n=2000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=1 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=2 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=4 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=8 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=12 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=16 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=24 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=32 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=64 vec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned seq p=1 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=1 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=2 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=4 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=8 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=12 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=16 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=24 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=32 novec n=4000,same SHA-256 of C,PASS
+bit-identical to the sequential baseline,pinned par p=64 novec n=4000,same SHA-256 of C,PASS
+identical checksum in every sample,default par p=1 vec n=200,,PASS
+identical checksum in every sample,default par p=2 vec n=200,,PASS
+identical checksum in every sample,default par p=4 vec n=200,,PASS
+identical checksum in every sample,default par p=8 vec n=200,,PASS
+identical checksum in every sample,default par p=12 vec n=200,,PASS
+identical checksum in every sample,default par p=16 vec n=200,,PASS
+identical checksum in every sample,default par p=24 vec n=200,,PASS
+identical checksum in every sample,default par p=32 vec n=200,,PASS
+identical checksum in every sample,default par p=64 vec n=200,,PASS
+identical checksum in every sample,default seq p=1 vec n=200,,PASS
+identical checksum in every sample,default par p=1 vec n=500,,PASS
+identical checksum in every sample,default par p=2 vec n=500,,PASS
+identical checksum in every sample,default par p=4 vec n=500,,PASS
+identical checksum in every sample,default par p=8 vec n=500,,PASS
+identical checksum in every sample,default par p=12 vec n=500,,PASS
+identical checksum in every sample,default par p=16 vec n=500,,PASS
+identical checksum in every sample,default par p=24 vec n=500,,PASS
+identical checksum in every sample,default par p=32 vec n=500,,PASS
+identical checksum in every sample,default par p=64 vec n=500,,PASS
+identical checksum in every sample,default seq p=1 vec n=500,,PASS
+identical checksum in every sample,default par p=1 novec n=1000,,PASS
+identical checksum in every sample,default par p=1 vec n=1000,,PASS
+identical checksum in every sample,default par p=2 novec n=1000,,PASS
+identical checksum in every sample,default par p=2 vec n=1000,,PASS
+identical checksum in every sample,default par p=4 novec n=1000,,PASS
+identical checksum in every sample,default par p=4 vec n=1000,,PASS
+identical checksum in every sample,default par p=8 novec n=1000,,PASS
+identical checksum in every sample,default par p=8 vec n=1000,,PASS
+identical checksum in every sample,default par p=12 novec n=1000,,PASS
+identical checksum in every sample,default par p=12 vec n=1000,,PASS
+identical checksum in every sample,default par p=16 novec n=1000,,PASS
+identical checksum in every sample,default par p=16 vec n=1000,,PASS
+identical checksum in every sample,default par p=24 novec n=1000,,PASS
+identical checksum in every sample,default par p=24 vec n=1000,,PASS
+identical checksum in every sample,default par p=32 novec n=1000,,PASS
+identical checksum in every sample,default par p=32 vec n=1000,,PASS
+identical checksum in every sample,default par p=64 novec n=1000,,PASS
+identical checksum in every sample,default par p=64 vec n=1000,,PASS
+identical checksum in every sample,default seq p=1 novec n=1000,,PASS
+identical checksum in every sample,default seq p=1 vec n=1000,,PASS
+identical checksum in every sample,default par p=1 novec n=2000,,PASS
+identical checksum in every sample,default par p=1 vec n=2000,,PASS
+identical checksum in every sample,default par p=2 novec n=2000,,PASS
+identical checksum in every sample,default par p=2 vec n=2000,,PASS
+identical checksum in every sample,default par p=4 novec n=2000,,PASS
+identical checksum in every sample,default par p=4 vec n=2000,,PASS
+identical checksum in every sample,default par p=8 novec n=2000,,PASS
+identical checksum in every sample,default par p=8 vec n=2000,,PASS
+identical checksum in every sample,default par p=12 novec n=2000,,PASS
+identical checksum in every sample,default par p=12 vec n=2000,,PASS
+identical checksum in every sample,default par p=16 novec n=2000,,PASS
+identical checksum in every sample,default par p=16 vec n=2000,,PASS
+identical checksum in every sample,default par p=24 novec n=2000,,PASS
+identical checksum in every sample,default par p=24 vec n=2000,,PASS
+identical checksum in every sample,default par p=32 novec n=2000,,PASS
+identical checksum in every sample,default par p=32 vec n=2000,,PASS
+identical checksum in every sample,default par p=64 novec n=2000,,PASS
+identical checksum in every sample,default par p=64 vec n=2000,,PASS
+identical checksum in every sample,default seq p=1 novec n=2000,,PASS
+identical checksum in every sample,default seq p=1 vec n=2000,,PASS
+identical checksum in every sample,default par p=1 novec n=4000,,PASS
+identical checksum in every sample,default par p=1 vec n=4000,,PASS
+identical checksum in every sample,default par p=2 novec n=4000,,PASS
+identical checksum in every sample,default par p=2 vec n=4000,,PASS
+identical checksum in every sample,default par p=4 novec n=4000,,PASS
+identical checksum in every sample,default par p=4 vec n=4000,,PASS
+identical checksum in every sample,default par p=8 novec n=4000,,PASS
+identical checksum in every sample,default par p=8 vec n=4000,,PASS
+identical checksum in every sample,default par p=12 novec n=4000,,PASS
+identical checksum in every sample,default par p=12 vec n=4000,,PASS
+identical checksum in every sample,default par p=16 novec n=4000,,PASS
+identical checksum in every sample,default par p=16 vec n=4000,,PASS
+identical checksum in every sample,default par p=24 novec n=4000,,PASS
+identical checksum in every sample,default par p=24 vec n=4000,,PASS
+identical checksum in every sample,default par p=32 novec n=4000,,PASS
+identical checksum in every sample,default par p=32 vec n=4000,,PASS
+identical checksum in every sample,default par p=64 novec n=4000,,PASS
+identical checksum in every sample,default par p=64 vec n=4000,,PASS
+identical checksum in every sample,default seq p=1 novec n=4000,,PASS
+identical checksum in every sample,default seq p=1 vec n=4000,,PASS
+identical checksum in every sample,pinned par p=1 vec n=200,,PASS
+identical checksum in every sample,pinned par p=2 vec n=200,,PASS
+identical checksum in every sample,pinned par p=4 vec n=200,,PASS
+identical checksum in every sample,pinned par p=8 vec n=200,,PASS
+identical checksum in every sample,pinned par p=12 vec n=200,,PASS
+identical checksum in every sample,pinned par p=16 vec n=200,,PASS
+identical checksum in every sample,pinned par p=24 vec n=200,,PASS
+identical checksum in every sample,pinned par p=32 vec n=200,,PASS
+identical checksum in every sample,pinned par p=64 vec n=200,,PASS
+identical checksum in every sample,pinned seq p=1 vec n=200,,PASS
+identical checksum in every sample,pinned par p=1 vec n=500,,PASS
+identical checksum in every sample,pinned par p=2 vec n=500,,PASS
+identical checksum in every sample,pinned par p=4 vec n=500,,PASS
+identical checksum in every sample,pinned par p=8 vec n=500,,PASS
+identical checksum in every sample,pinned par p=12 vec n=500,,PASS
+identical checksum in every sample,pinned par p=16 vec n=500,,PASS
+identical checksum in every sample,pinned par p=24 vec n=500,,PASS
+identical checksum in every sample,pinned par p=32 vec n=500,,PASS
+identical checksum in every sample,pinned par p=64 vec n=500,,PASS
+identical checksum in every sample,pinned seq p=1 vec n=500,,PASS
+identical checksum in every sample,pinned par p=1 novec n=1000,,PASS
+identical checksum in every sample,pinned par p=1 vec n=1000,,PASS
+identical checksum in every sample,pinned par p=2 novec n=1000,,PASS
+identical checksum in every sample,pinned par p=2 vec n=1000,,PASS
+identical checksum in every sample,pinned par p=4 novec n=1000,,PASS
+identical checksum in every sample,pinned par p=4 vec n=1000,,PASS
+identical checksum in every sample,pinned par p=8 novec n=1000,,PASS
+identical checksum in every sample,pinned par p=8 vec n=1000,,PASS
+identical checksum in every sample,pinned par p=12 novec n=1000,,PASS
+identical checksum in every sample,pinned par p=12 vec n=1000,,PASS
+identical checksum in every sample,pinned par p=16 novec n=1000,,PASS
+identical checksum in every sample,pinned par p=16 vec n=1000,,PASS
+identical checksum in every sample,pinned par p=24 novec n=1000,,PASS
+identical checksum in every sample,pinned par p=24 vec n=1000,,PASS
+identical checksum in every sample,pinned par p=32 novec n=1000,,PASS
+identical checksum in every sample,pinned par p=32 vec n=1000,,PASS
+identical checksum in every sample,pinned par p=64 novec n=1000,,PASS
+identical checksum in every sample,pinned par p=64 vec n=1000,,PASS
+identical checksum in every sample,pinned seq p=1 novec n=1000,,PASS
+identical checksum in every sample,pinned seq p=1 vec n=1000,,PASS
+identical checksum in every sample,pinned par p=1 novec n=2000,,PASS
+identical checksum in every sample,pinned par p=1 vec n=2000,,PASS
+identical checksum in every sample,pinned par p=2 novec n=2000,,PASS
+identical checksum in every sample,pinned par p=2 vec n=2000,,PASS
+identical checksum in every sample,pinned par p=4 novec n=2000,,PASS
+identical checksum in every sample,pinned par p=4 vec n=2000,,PASS
+identical checksum in every sample,pinned par p=8 novec n=2000,,PASS
+identical checksum in every sample,pinned par p=8 vec n=2000,,PASS
+identical checksum in every sample,pinned par p=12 novec n=2000,,PASS
+identical checksum in every sample,pinned par p=12 vec n=2000,,PASS
+identical checksum in every sample,pinned par p=16 novec n=2000,,PASS
+identical checksum in every sample,pinned par p=16 vec n=2000,,PASS
+identical checksum in every sample,pinned par p=24 novec n=2000,,PASS
+identical checksum in every sample,pinned par p=24 vec n=2000,,PASS
+identical checksum in every sample,pinned par p=32 novec n=2000,,PASS
+identical checksum in every sample,pinned par p=32 vec n=2000,,PASS
+identical checksum in every sample,pinned par p=64 novec n=2000,,PASS
+identical checksum in every sample,pinned par p=64 vec n=2000,,PASS
+identical checksum in every sample,pinned seq p=1 novec n=2000,,PASS
+identical checksum in every sample,pinned seq p=1 vec n=2000,,PASS
+identical checksum in every sample,pinned par p=1 novec n=4000,,PASS
+identical checksum in every sample,pinned par p=1 vec n=4000,,PASS
+identical checksum in every sample,pinned par p=2 novec n=4000,,PASS
+identical checksum in every sample,pinned par p=2 vec n=4000,,PASS
+identical checksum in every sample,pinned par p=4 novec n=4000,,PASS
+identical checksum in every sample,pinned par p=4 vec n=4000,,PASS
+identical checksum in every sample,pinned par p=8 novec n=4000,,PASS
+identical checksum in every sample,pinned par p=8 vec n=4000,,PASS
+identical checksum in every sample,pinned par p=12 novec n=4000,,PASS
+identical checksum in every sample,pinned par p=12 vec n=4000,,PASS
+identical checksum in every sample,pinned par p=16 novec n=4000,,PASS
+identical checksum in every sample,pinned par p=16 vec n=4000,,PASS
+identical checksum in every sample,pinned par p=24 novec n=4000,,PASS
+identical checksum in every sample,pinned par p=24 vec n=4000,,PASS
+identical checksum in every sample,pinned par p=32 novec n=4000,,PASS
+identical checksum in every sample,pinned par p=32 vec n=4000,,PASS
+identical checksum in every sample,pinned par p=64 novec n=4000,,PASS
+identical checksum in every sample,pinned par p=64 vec n=4000,,PASS
+identical checksum in every sample,pinned seq p=1 novec n=4000,,PASS
+identical checksum in every sample,pinned seq p=1 vec n=4000,,PASS
